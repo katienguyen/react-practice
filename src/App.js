@@ -41,7 +41,7 @@ class App extends Component {
     let length = items.length;
     items.push({
       id: ++length,
-      firstname: textItem
+      firstname: textItem 
     });
     this.setState({
       items: items
